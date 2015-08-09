@@ -4,7 +4,11 @@ Begin
     jts.restart();
     // select Applet 
     jts.senDisplay('00A4040006112233445566');
-    jts.senDisplay('00840000A8');
+    // Random
+    jts.senDisplay('0084000008');
+    // Ext Auth
+    jts.senDisplay('008200001011223344556677886C5E94DCADD39F1D');
+    
     
     jts.closePort();
   end;
